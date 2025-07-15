@@ -1,6 +1,10 @@
 import { useRef } from "react";
 import { motion, useMotionValue, animate, useTransform } from "framer-motion";
 
+import leftArrows from "@anim/glowing_left_arrows.json";
+import rightArrows from "@anim/glowing_right_arrows.json";
+import orbGlow from "@anim/glowing_circle.json";
+
 //width and heights of slider bar
 const TRACK_W = 320;
 const TRACK_H = 72;
